@@ -1,6 +1,6 @@
 <canvas
   id="myChart"
-  style="max-width: 90vw; max-height: 40vh"
+  style="max-width: 80vw; max-height: 40vh"
   width="400"
   height="400"
 ></canvas>
@@ -44,14 +44,32 @@
             x: {
               grid:{
                 drawOnChartArea: false
+              },
+              ticks: {
+                textStrokeWidth: 3,
+                textStrokeColor: '#FFFFFF',
+                color: '#6BB9F6'
               }
             },
             y: {
               grid:{
                 drawOnChartArea: false
+              },
+              ticks: {
+                textStrokeWidth: 3,
+                textStrokeColor: '#FFFFFF',
+                color: '#6BB9F6'
               }
-            }
+            },
           },
       },
   });
 </script>
+
+{literal}
+<style>
+  canvas {
+    margin: 0 calc(60% - 45vw);
+  }
+</style>
+{/literal}

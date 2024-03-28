@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.5.1, created on 2024-03-28 18:51:53
+/* Smarty version 4.5.1, created on 2024-03-28 22:33:01
   from 'C:\Codes\2024-03-28 - SmartIBGENames\app\views\site\components\chart.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.1',
-  'unifunc' => 'content_6605bc49535919_76683372',
+  'unifunc' => 'content_6605f01d87ad59_04048991',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2519d62fe44c0e0e54e631119c1d0aa180f330d3' => 
     array (
       0 => 'C:\\Codes\\2024-03-28 - SmartIBGENames\\app\\views\\site\\components\\chart.tpl',
-      1 => 1711651894,
+      1 => 1711665180,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,10 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6605bc49535919_76683372 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6605f01d87ad59_04048991 (Smarty_Internal_Template $_smarty_tpl) {
 ?><canvas
   id="myChart"
-  style="max-width: 90vw; max-height: 40vh"
+  style="max-width: 80vw; max-height: 40vh"
   width="400"
   height="400"
 ></canvas>
@@ -71,16 +71,35 @@ function content_6605bc49535919_76683372 (Smarty_Internal_Template $_smarty_tpl)
             x: {
               grid:{
                 drawOnChartArea: false
+              },
+              ticks: {
+                textStrokeWidth: 3,
+                textStrokeColor: '#FFFFFF',
+                color: '#6BB9F6'
               }
             },
             y: {
               grid:{
                 drawOnChartArea: false
+              },
+              ticks: {
+                textStrokeWidth: 3,
+                textStrokeColor: '#FFFFFF',
+                color: '#6BB9F6'
               }
-            }
+            },
           },
       },
   });
 <?php echo '</script'; ?>
-><?php }
+>
+
+
+<style>
+  canvas {
+    margin: 0 calc(60% - 45vw);
+  }
+</style>
+
+<?php }
 }
