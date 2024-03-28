@@ -12,6 +12,8 @@
       "app/connection/connection.php"
     ]
   },
+  "name": "smarty-template-ibge-names",
+  "description": "Template para o projeto de nomes do IBGE 2024",
   "authors": [
     {
       "name": "Fábio Casanova",
