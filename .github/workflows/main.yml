@@ -19,6 +19,3 @@ jobs:
 
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
-
-    - name: Run
-      run: php -S localhost:8080 -t public
