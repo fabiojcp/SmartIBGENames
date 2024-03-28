@@ -12,7 +12,7 @@
       "app/connection/connection.php"
     ]
   },
-  "name": "smarty-template-ibge-names",
+  "name": "smarty-template-ibge-names/2024",
   "description": "Template para o projeto de nomes do IBGE 2024",
   "authors": [
     {
